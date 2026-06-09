@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Pathway Coaching</title>
+  <link rel="icon" type="image/png" href="assets/images/logo-pathway.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header site-header--solid">
+    <div class="container nav">
+      <a href="index.html" class="nav__brand">
+        <img src="assets/images/logo-pathway.png" alt="Pathway Coaching" />
+      </a>
+      <a href="contact.html" class="btn nav__cta-left" style="margin-left:20px;">Schedule a 30-minute call</a>
+      <button class="nav__toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pastors.html">Resources</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html" class="is-active">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="about-hero">
+    <div class="container">
+      <h1>Why Pathway Coaching?</h1>
+      <h2>Finding awareness in every turn</h2>
+      <p>We are all on a path in our professional and personal lives. Like on a hike, sometimes it is best to have someone come alongside and walk with you. helping you avoid pitfalls and see things you may have missed.</p>
+      <a href="contact.html" class="btn">Schedule a 30-minute call</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <hr />
+          <h2>Contact</h2>
+          <p><a href="mailto:chris@pathwaycoaching.org">chris@pathwaycoaching.org</a></p>
+          <a class="fb" href="https://www.facebook.com/chris.cowling.585/about/" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+        </div>
+
+        <div>
+          <h2 class="contact-heading">Want to learn more? Let's connect!</h2>
+          <form class="contact" autocomplete="on">
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE" />
+            <input type="hidden" name="from_name" value="Pathway Coaching website" />
+            <input type="hidden" name="subject" value="New message from pathwaycoaching.org" />
+            <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <label for="name">Enter Your Name</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">Enter Your Email *</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="subject_field">Enter Your Subject</label>
+            <input id="subject_field" name="user_subject" type="text" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+            <div class="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">© 2023 by Pathway Coaching L.L.C.</div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

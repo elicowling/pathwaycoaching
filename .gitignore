@@ -1,0 +1,13 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# OneDrive sync junk
+*.tmp
+~$*
+
+# Working notes / source screenshots — not part of the published site
+_reference/
