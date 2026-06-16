@@ -11,3 +11,10 @@ desktop.ini
 
 # Working notes / source screenshots — not part of the published site
 _reference/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
