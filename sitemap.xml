@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.pathwaycoaching.org/</loc></url>
-  <url><loc>https://www.pathwaycoaching.org/services.html</loc></url>
-  <url><loc>https://www.pathwaycoaching.org/pastors.html</loc></url>
-  <url><loc>https://www.pathwaycoaching.org/about.html</loc></url>
-  <url><loc>https://www.pathwaycoaching.org/contact.html</loc></url>
+  <url><loc>https://pathwaycoaching.org/</loc></url>
+  <url><loc>https://pathwaycoaching.org/coaching.html</loc></url>
+  <url><loc>https://pathwaycoaching.org/couples.html</loc></url>
+  <url><loc>https://pathwaycoaching.org/advisors.html</loc></url>
+  <url><loc>https://pathwaycoaching.org/about.html</loc></url>
+  <url><loc>https://pathwaycoaching.org/contact.html</loc></url>
 </urlset>

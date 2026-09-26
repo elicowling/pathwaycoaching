@@ -1,62 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | Pathway Coaching</title>
-  <link rel="icon" type="image/png" href="assets/images/logo-pathway.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact | Pathway Coaching</title>
+<meta name="description" content="Book a free 30-minute conversation with Chris Cowling, or email chris@pathwaycoaching.org." />
+<link rel="canonical" href="https://pathwaycoaching.org/contact.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Pathway Coaching" />
+<meta property="og:title" content="Let's talk." />
+<meta property="og:description" content="A free 30-minute conversation with Chris Cowling. Nothing to prepare." />
+<meta property="og:url" content="https://pathwaycoaching.org/contact.html" />
+<meta property="og:image" content="https://pathwaycoaching.org/assets/images/social-preview.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/png" href="assets/images/logo-pathway.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
-  <header class="site-header site-header--solid">
-    <div class="container nav">
-      <a href="index.html" class="nav__brand">
-        <img src="assets/images/logo-pathway.png" alt="Pathway Coaching" />
-      </a>
-      <a href="contact.html" class="btn nav__cta-left" style="margin-left:20px;">Schedule a 30-minute call</a>
-      <button class="nav__toggle" aria-label="Toggle menu">☰</button>
-      <ul class="nav__links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pastors.html">Resources</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </div>
-  </header>
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo-pathway.png" alt="" />
+      Pathway Coaching
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links" id="nav">
+      <li><a href="coaching.html">Coaching</a></li>
+      <li><a href="couples.html">Couples</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+      <li><a href="https://knowhonesty.com" rel="noopener">Know Honesty <span aria-hidden="true">&#8599;</span></a></li>
+      <li><a class="btn" href="https://calendly.com/chrispathwaycoaching/meeting">Book a call</a></li>
+    </ul>
+  </div>
+</header>
 
-  <section class="page-hero">
+<main id="main">
+
+  <section class="hero">
     <div class="container">
-      <h1>I'm Interested in Coaching!</h1>
+      <p class="eyebrow">Contact</p>
+      <h1>Let&rsquo;s talk.</h1>
+      <p class="lead">Thirty minutes, free, nothing to prepare. If coaching is not the right fit, I will tell you.</p>
     </div>
   </section>
 
-  <section class="section" style="padding-top: 20px;">
+  <section class="tight">
     <div class="container">
-      <div class="contact-grid">
-        <div class="contact-info">
-          <hr />
-          <h2>Contact</h2>
-          <p><a href="mailto:chris@pathwaycoaching.org">chris@pathwaycoaching.org</a></p>
-          <a class="fb" href="https://www.facebook.com/chris.cowling.585/about/" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+      <div class="grid-3">
+        <div class="card card-accent">
+          <h3>Book a call</h3>
+          <p>Pick a time that works. This is the fastest way to reach me.</p>
+          <p><a class="arrow-link" href="https://calendly.com/chrispathwaycoaching/meeting">Open my calendar</a></p>
         </div>
-
-        <div>
-          <h2 class="contact-heading">Want to learn more? Let's connect!</h2>
-          <p>Reach out directly and let's start the conversation. Click below and your email app will open with a message ready to send.</p>
-          <p><a class="btn" href="mailto:chris@pathwaycoaching.org?subject=Coaching%20inquiry%20from%20your%20website">Email Chris</a></p>
+        <div class="card card-accent">
+          <h3>Email</h3>
+          <p>Would rather write first? That is fine.</p>
+          <p><a class="arrow-link" href="mailto:chris@pathwaycoaching.org">chris@pathwaycoaching.org</a></p>
+        </div>
+        <div class="card card-accent">
+          <h3>Host a workshop</h3>
+          <p>Advisors, CPAs, attorneys, employers and churches: let&rsquo;s talk about Couples Know Honesty for your people.</p>
+          <p><a class="arrow-link" href="couples.html#host">See how it works</a></p>
         </div>
       </div>
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="container">© 2023 by Pathway Coaching L.L.C.</div>
-  </footer>
+  <section class="band-ink">
+    <div class="container">
+      <h2>Pick a time.</h2>
+      <div class="btn-row">
+        <a class="btn" href="https://calendly.com/chrispathwaycoaching/meeting">Book a 30-minute call</a>
+        <a class="btn-ghost" href="mailto:chris@pathwaycoaching.org">Email Chris</a>
+      </div>
+      <p class="note"><b>The Know Honesty Guarantee.</b> Significant impact, guaranteed. I will walk you through exactly what that means when we talk.</p>
+    </div>
+  </section>
 
-  <script src="assets/js/main.js"></script>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/images/logo-pathway.png" alt="" />
+          Pathway Coaching
+        </div>
+        <p>Chris Cowling<br />Executive and Know Honesty Coach</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="coaching.html">Coaching for leaders</a></li>
+          <li><a href="couples.html">Couples Know Honesty</a></li>
+          <li><a href="advisors.html">For financial advisors</a></li>
+          <li><a href="about.html">About Chris</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Get in touch</h2>
+        <ul>
+          <li><a href="mailto:chris@pathwaycoaching.org">chris@pathwaycoaching.org</a></li>
+          <li><a href="https://calendly.com/chrispathwaycoaching/meeting">Book a 30-minute call</a></li>
+          <li><a href="https://knowhonesty.com" rel="noopener">knowhonesty.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>&copy; 2026 Pathway Coaching L.L.C. &middot; Know Honesty&reg;, The Six Practices&reg; and Pursuit of Honesty&reg; are marks of Know Honesty.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var t = document.querySelector('.nav-toggle'), n = document.getElementById('nav');
+  t.addEventListener('click', function () {
+    var open = n.classList.toggle('open');
+    t.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+})();
+</script>
 </body>
 </html>
